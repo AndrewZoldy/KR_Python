@@ -110,3 +110,4 @@ if __name__ == '__main__':
                     payload.append(record)
         SeqIO.write(payload, inp.replace('.fasta', '') + '_out.fasta')
     os.remove(inp.replace('.fasta', '') + '_temp_out.fasta')
+    os.remove('session.txt')
