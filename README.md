@@ -1,5 +1,5 @@
 # KR_Python
-Examination work for Python course
+*Examination work for Python course*
 
 **Introduction into name-giver tool**
 
