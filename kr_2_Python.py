@@ -17,7 +17,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     inp = args.input_file
     fresh = args.fresh_start
-    spec_finder = re.compile(r'''\|\s(PREDICTED:\s)*(?P<name>[\w]*\s[\w]*)[\s\n]''')
+    spec_finder = re.compile(r'''\|\s(PREDICTED:\s)*(?P<name>[\w]*\s[\w.]*)[\s\n]''')
     new_list_seqs = []
     record_list = []
     count_list = []
